@@ -1,0 +1,151 @@
+.header {
+
+    max-width: 100%;
+    
+    height: 130vh; background-image: url(../imagens/img3.jpg);
+    
+    background-size: 100% 100%;
+    
+    display: flex;
+    
+    flex-direction: column;
+    
+    align-items: center;
+
+    justify-content: space-around;
+}
+
+
+
+.menu{
+
+width: 100%;
+
+max-width: 2560px;
+
+min-width: 100px;
+
+height: 10vh;
+
+background-color: #bfddf3;
+
+
+display: flex;
+
+justify-content: space-around;
+
+align-items: center; flex-wrap: wrap;
+
+z-index: 2;
+}
+
+.menu a{
+
+    
+
+     text-shadow: 1px 1px 7px #000000;
+    
+    color:black;
+    
+    font-size: 33px;
+
+    
+}
+
+.menu a:hover{
+
+    background-color: rgba(85, 136, 164, 0.500); text-shadow: 1px 1px 7px #000000;
+    
+    color:#ffffff;
+    
+    font-size: 33px;
+}
+
+
+.header-main{
+
+    width: 100%;
+    
+    max-width: 2560px; min-width: 300px;
+    
+    height: 100px;
+    
+    display: flex;
+    
+    flex-direction: column;
+    
+    justify-content: top;
+    
+    align-items: center;
+    
+    } .header-main h1{
+    
+    color:black;
+    background-color: #ffffff;
+    margin-top: 105px;
+    
+    font-size: 65px;
+    
+    text-shadow: 5px 5px 10px 0#000000;
+    
+    } .header-main button{
+    
+    color: #eeeeee; background-color: #ffffff;
+    
+    border: 0;
+    
+    border-radius: 10px;
+    
+    width: 200px;
+    
+    height: 60px;
+    
+    margin-top: 150px;
+    
+    font-weight: bold;
+    
+    font-size: 25px;
+    
+    z-index: 2;
+    
+    }    
+
+    #Sobre{
+        background-color: #bfddf3;
+        height: 50px;
+    justify-content: left;
+    align-items: center;
+    display: flex;
+    }
+
+    #MT{
+        background-color: #bfddf3;
+        height: 50px;
+    justify-content: left;
+    align-items: center;
+    display: flex;
+    }
+
+    #esp{
+        background-color: #bfddf3;
+        height: 50px;
+    justify-content: left;
+    align-items: center;
+    display: flex;
+    }
+
+    #Salario{
+        background-color: #bfddf3;
+        height: 50px;
+    justify-content: left;
+    align-items: center;
+    display: flex;
+    }
+
+    #Faculdades{
+        background-color: #bfddf3;
+        height: 50px;
+    justify-content: left;
+    align-items: center;
+    display: flex;
+    }
